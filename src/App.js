@@ -1,5 +1,11 @@
+import Kanban from "./Kanban";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Kanban />
+    </>
+  );
 }
 
 export default App;

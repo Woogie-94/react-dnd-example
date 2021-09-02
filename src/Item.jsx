@@ -1,7 +1,8 @@
 import React from "react";
+import { ItemContainer } from "./style";
 
-const Item = (props) => {
-  return <></>;
+const Item = ({ item, items }) => {
+  return <ItemContainer>{item}</ItemContainer>;
 };
 
 export default Item;
